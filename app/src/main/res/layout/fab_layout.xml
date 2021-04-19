@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_help"
+        android:layout_width="@dimen/dms_35dp"
+        android:layout_height="@dimen/dms_35dp"
+        android:foreground="@drawable/ic_help"
+        android:backgroundTint="@color/blue"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="22dp"
+        android:layout_marginRight="@dimen/dms_150dp"
+        android:visibility="invisible"
+        />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_info"
+        android:layout_width="@dimen/dms_35dp"
+        android:layout_height="@dimen/dms_35dp"
+        android:foreground="@drawable/ic_info"
+        android:backgroundTint="@color/green"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="@dimen/dms_150dp"
+        android:layout_marginRight="@dimen/dms_22dp"
+        android:visibility="invisible"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_volume"
+        android:layout_width="@dimen/dms_35dp"
+        android:layout_height="@dimen/dms_35dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="@dimen/dms_122dp"
+        android:layout_marginBottom="@dimen/dms_115dp"
+        android:backgroundTint="@color/purple"
+        android:foreground="@drawable/ic_volume_up"
+        android:visibility="invisible" />
+
+</FrameLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/no_color">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/dialoggame">
+
+        <TextView
+            android:id="@+id/tv_win"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dms_80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/dms_22dp"
+            android:gravity="center"
+            android:text="@string/win"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dm_30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_marksWin"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dms_80dp"
+            android:layout_below="@+id/tv_win"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/dms_22dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dm_24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_marksWin"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/dms_22dp"
+            android:layout_marginBottom="@dimen/dms_30dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_nextLevelWin"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_marksWin"
+                android:background="@drawable/custom_botton_dialog"
+                android:backgroundTint="@color/green_button"
+                android:backgroundTintMode="add"
+                android:padding="@dimen/dms_20dp"
+                android:text="@string/next_level"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dm_20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

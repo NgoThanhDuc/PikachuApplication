@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".FramentDialog.InfoFragmentDialog">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backgroundinfo">
+
+        <TextView
+            android:id="@+id/tv_gioithieu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/dms_10dp"
+            android:text="@string/introduce"
+            android:textColor="#FFEB3B"
+            android:textSize="@dimen/dm_24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/dms_20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/linear"
+            android:layout_below="@+id/tv_gioithieu"
+            android:layout_marginLeft="@dimen/dms_20dp"
+            android:layout_marginRight="@dimen/dms_20dp"
+            android:layout_marginTop="@dimen/dms_10dp">
+
+            <TextView
+                android:id="@+id/tv_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dms_8dp"
+                android:text="@string/text_introduce_1"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dm_20sp" />
+
+            <TextView
+                android:id="@+id/tv_description1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_description"
+                android:layout_marginBottom="8dp"
+                android:text="@string/text_introduce_2"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dm_20sp" />
+
+            <TextView
+                android:id="@+id/tv_description2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_description1"
+                android:layout_marginBottom="@dimen/dms_8dp"
+                android:text="@string/text_introduce_3"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dm_20sp" />
+
+            <TextView
+                android:id="@+id/tv_description3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_description2"
+                android:layout_marginBottom="@dimen/dms_8dp"
+                android:text="@string/text_introduce_4"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dm_20sp" />
+
+            <TextView
+                android:id="@+id/tv_description4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_description3"
+                android:text="@string/text_introduce_5"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dm_20sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_quaylai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear"
+            android:layout_marginRight="@dimen/dms_20dp"
+            android:background="@null"
+           android:layout_alignParentRight="true"
+            android:drawableLeft="@drawable/ic_quaylai"
+            android:text="@string/back"
+            android:textAllCaps="false"
+            android:textColor="@color/yellow2"
+            android:textSize="@dimen/dm_22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/dms_20dp"
+            tools:ignore="NotSibling" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

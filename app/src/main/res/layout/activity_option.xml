@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.OptionActivity">
+
+    <ImageView
+        android:id="@+id/imageBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/op1" />
+
+    <ImageButton
+        android:id="@+id/ib_turnOff"
+        android:layout_width="@dimen/dms_45dp"
+        android:layout_height="@dimen/dms_45dp"
+        android:layout_gravity="right"
+        android:layout_margin="@dimen/dms_16dp"
+        android:alpha="0.9"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/turn_off" />
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="@dimen/dms_150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="@dimen/dms_10dp"
+        android:background="@drawable/custom_button"
+        android:padding="@dimen/dms_5dp"
+        android:text="@string/play"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/dm_24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom|left"
+        android:layout_marginLeft="@dimen/dms_22dp"
+        android:layout_marginBottom="@dimen/dms_10dp"
+        android:background="@color/red1"
+        android:fontFamily="@font/aguafina_script"
+        android:padding="@dimen/dms_5dp"
+        android:text="@string/ngothanhduc"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/dm_18sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_setting"
+        android:layout_width="@dimen/dms_45dp"
+        android:layout_height="@dimen/dms_45dp"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="@dimen/dms_16dp"
+        android:backgroundTint="@color/yellow"
+        android:foreground="@drawable/ic_setting" />
+
+    <include layout="@layout/fab_layout" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

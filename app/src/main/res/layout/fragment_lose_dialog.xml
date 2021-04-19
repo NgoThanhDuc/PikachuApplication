@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/no_color"
+    tools:context=".FramentDialog.LoseFragmentDialog">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/dialoggame">
+
+        <TextView
+            android:id="@+id/tv_lose"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dms_60dp"
+            android:layout_marginTop="@dimen/dms_34dp"
+            android:background="@color/no_color"
+            android:gravity="center"
+            android:text="@string/game_over"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dm_30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_levelLose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_lose"
+            android:layout_marginTop="@dimen/dms_30dp"
+            android:background="@color/no_color"
+            android:gravity="center"
+            android:padding="@dimen/dms_10dp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dm_24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_marksLose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_levelLose"
+            android:background="@color/no_color"
+            android:gravity="center"
+            android:padding="@dimen/dms_20dp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dm_24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_marksLose"
+            android:layout_marginBottom="@dimen/dms_30dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_retryLose"
+                android:layout_width="@dimen/dms_150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dms_20dp"
+                android:background="@drawable/custom_botton_dialog"
+                android:backgroundTint="@color/green_button"
+                android:backgroundTintMode="add"
+                android:padding="@dimen/dms_15dp"
+                android:text="@string/retry"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dm_20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_mainMenuLose"
+                android:layout_width="@dimen/dms_150dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_botton_dialog"
+                android:backgroundTint="@color/red_button"
+                android:backgroundTintMode="add"
+                android:padding="@dimen/dms_15dp"
+                android:text="@string/exit"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dm_20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

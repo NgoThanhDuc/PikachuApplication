@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/no_color</item>
+        <item name="colorPrimaryDark">@color/no_color</item>
+        <item name="colorAccent">@color/no_color</item>
+        <item name="android:navigationBarColor">@color/no_color</item>
+    </style>
+
+    <style name="DialogAnimationWinLosePause">
+        <item name="android:windowEnterAnimation">@anim/slide_up_dialog_win_lose</item>
+        <item name="android:windowExitAnimation">@anim/slide_down_dialog_win_lose</item>
+    </style>
+
+    <style name="DialogAnimationOptionActivity">
+        <item name="android:windowEnterAnimation">@anim/fade_in_and_rotate_optionactivity_dialog</item>
+        <item name="android:windowExitAnimation">@anim/fade_out_and_rotate_optionactivity_dialog</item>
+    </style>
+
+    <style name="DialogAnimationExit">
+        <item name="android:windowEnterAnimation">@anim/slide_up_exit_dialog</item>
+        <item name="android:windowExitAnimation">@anim/slide_down_exit_dialog</item>
+    </style>
+
+
+</resources>

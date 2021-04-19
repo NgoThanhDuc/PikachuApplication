@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialoggame">
+
+    <TextView
+        android:id="@+id/tv_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dms_65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/dms_22dp"
+        android:gravity="center"
+        android:paddingBottom="@dimen/dms_10dp"
+        android:text="@string/pause"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/dm_30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_pause"
+        android:layout_marginTop="@dimen/dms_20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_resetPause"
+            android:layout_width="@dimen/dms_150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dms_20dp"
+            android:background="@drawable/custom_botton_dialog"
+            android:backgroundTint="@color/pink_button"
+            android:backgroundTintMode="add"
+            android:padding="@dimen/dms_20dp"
+            android:text="@string/reset"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/ib_musicPause"
+            android:layout_width="@dimen/dms_150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_botton_dialog"
+            android:backgroundTint="@color/purple_button"
+            android:backgroundTintMode="add"
+            android:padding="@dimen/dms_20dp"
+            android:src="@drawable/ic_volume_up" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line1"
+        android:layout_marginTop="@dimen/dms_20dp"
+        android:layout_marginBottom="@dimen/dms_30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_resumePause"
+            android:layout_width="@dimen/dms_150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dms_20dp"
+            android:background="@drawable/custom_botton_dialog"
+            android:backgroundTint="@color/green_button"
+            android:backgroundTintMode="add"
+            android:padding="@dimen/dms_20dp"
+            android:text="@string/resume"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dm_20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_mainMeuGame"
+            android:layout_width="@dimen/dms_150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_botton_dialog"
+            android:backgroundTint="@color/red_button"
+            android:backgroundTintMode="add"
+            android:padding="@dimen/dms_20dp"
+            android:text="@string/exit"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dm_20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

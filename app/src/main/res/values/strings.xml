@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Pikachu</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="time">00:00</string>
+    <string name="play">Play</string>
+    <string name="ngothanhduc">NgoThanhDuc</string>
+    <string name="exit">Exit</string>
+    <string name="text_exit">Are you sure you want to exit this game?</string>
+    <string name="text_exit2">Do you really want to exit?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="text_tutorial_1">Your task is very simple, just look for two similar shapes and the line between the two shapes is no more than twice, click to remove them. See the illustration below:</string>
+    <string name="text_tutorial_2">Each time you remove two pictures you will score, the game is completed when you remove all the images before the timer runs out.</string>
+    <string name="back">" Back"</string>
+    <string name="introduce">Introduce</string>
+    <string name="text_introduce_1">Pikachu is a very popular game, especially for the office world.</string>
+    <string name="text_introduce_2">Marking the appearance of the game pikachu made the storm in Vietnam.</string>
+    <string name="text_introduce_3">With pikachu game, the game will bring memorable memories for you.</string>
+    <string name="text_introduce_4">Those must be strange and interesting moments with pikachu game that "tortured" your eyes.</string>
+    <string name="text_introduce_5">Let"s review the memory of this pikachu game!</string>
+    <string name="game_over">Game Over</string>
+    <string name="retry">Retry</string>
+    <string name="pause">Pause</string>
+    <string name="reset">Reset</string>
+    <string name="resume">Resume</string>
+    <string name="win">Win</string>
+    <string name="next_level">Next Level</string>
+</resources>

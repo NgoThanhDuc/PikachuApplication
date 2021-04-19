@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/no_color">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/dialoggame">
+
+        <TextView
+            android:id="@+id/tv_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dms_50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/dms_22dp"
+            android:gravity="center"
+            android:text="@string/exit"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dm_30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_messageExit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_exit"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/dms_20dp"
+            android:text="@string/text_exit2"
+            android:layout_marginTop="@dimen/dms_22dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dm_24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_messageExit"
+            android:layout_marginBottom="@dimen/dms_30dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_noExit"
+                android:layout_width="@dimen/dms_120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dms_20dp"
+                android:background="@drawable/custom_botton_dialog"
+                android:backgroundTint="@color/red_button"
+                android:backgroundTintMode="add"
+                android:padding="@dimen/dms_15dp"
+                android:text="@string/no"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dm_20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_yesExit"
+                android:layout_width="@dimen/dms_120dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_botton_dialog"
+                android:backgroundTint="@color/green_button"
+                android:backgroundTintMode="add"
+                android:padding="@dimen/dms_15dp"
+                android:text="@string/yes"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dm_20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
