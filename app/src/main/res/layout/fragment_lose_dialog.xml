@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/no_color"
-    tools:context=".FramentDialog.LoseFragmentDialog">
+    tools:context=".framentdialogs.LoseFragmentDialog">
 
     <RelativeLayout
         android:layout_width="match_parent"

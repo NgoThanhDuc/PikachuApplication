@@ -1,4 +1,4 @@
-package com.example.pikachu.FramentDialog;
+package com.example.pikachu.framentdialogs;
 
 import android.app.AlertDialog;
 import android.app.Dialog;

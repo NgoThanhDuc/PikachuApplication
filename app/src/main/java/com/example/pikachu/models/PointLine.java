@@ -1,4 +1,4 @@
-package com.example.pikachu.model;
+package com.example.pikachu.models;
 
 import android.graphics.Point;
 

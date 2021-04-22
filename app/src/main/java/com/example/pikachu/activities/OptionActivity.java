@@ -1,4 +1,4 @@
-package com.example.pikachu.Activity;
+package com.example.pikachu.activities;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -16,9 +16,9 @@ import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
-import com.example.pikachu.FramentDialog.ExitAppFragmentDialog;
-import com.example.pikachu.FramentDialog.HelpFragmentDialog;
-import com.example.pikachu.FramentDialog.InfoFragmentDialog;
+import com.example.pikachu.framentdialogs.ExitAppFragmentDialog;
+import com.example.pikachu.framentdialogs.HelpFragmentDialog;
+import com.example.pikachu.framentdialogs.InfoFragmentDialog;
 import com.example.pikachu.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 

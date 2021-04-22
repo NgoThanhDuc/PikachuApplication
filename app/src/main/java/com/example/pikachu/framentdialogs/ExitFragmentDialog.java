@@ -1,4 +1,4 @@
-package com.example.pikachu.FramentDialog;
+package com.example.pikachu.framentdialogs;
 
 import android.app.Dialog;
 import android.content.Intent;
@@ -13,13 +13,13 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.DialogFragment;
 
-import com.example.pikachu.Activity.OptionActivity;
+import com.example.pikachu.activities.OptionActivity;
 import com.example.pikachu.R;
 
-import static com.example.pikachu.Activity.MainActivity.musicPlay;
-import static com.example.pikachu.Activity.MainActivity.pauseFlag;
-import static com.example.pikachu.Activity.MainActivity.progressBarStatus;
-import static com.example.pikachu.Controller.GraphicView.nhacKhiLose;
+import static com.example.pikachu.activities.MainActivity.musicPlay;
+import static com.example.pikachu.activities.MainActivity.pauseFlag;
+import static com.example.pikachu.activities.MainActivity.progressBarStatus;
+import static com.example.pikachu.controllers.GraphicView.nhacKhiLose;
 
 
 public class ExitFragmentDialog extends DialogFragment {

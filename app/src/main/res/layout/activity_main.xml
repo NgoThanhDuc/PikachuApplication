@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Activity.MainActivity">
+    tools:context=".activities.MainActivity">
 
     <ImageView
         android:id="@+id/backgroundGame"
@@ -18,14 +18,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.example.pikachu.Controller.GraphicView
+        <com.example.pikachu.controllers.GraphicView
             android:id="@+id/graphicView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginLeft="@dimen/dms_tru_18dp"
             android:background="@android:color/transparent">
 
-        </com.example.pikachu.Controller.GraphicView>
+        </com.example.pikachu.controllers.GraphicView>
 
         <LinearLayout
             android:id="@+id/linear"

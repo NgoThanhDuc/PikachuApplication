@@ -1,4 +1,4 @@
-package com.example.pikachu.Activity;
+package com.example.pikachu.activities;
 
 import android.annotation.SuppressLint;
 import android.media.MediaPlayer;
@@ -12,18 +12,18 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.pikachu.Controller.GraphicView;
-import com.example.pikachu.FramentDialog.ExitFragmentDialog;
-import com.example.pikachu.FramentDialog.LoseFragmentDialog;
-import com.example.pikachu.FramentDialog.PauseFragmentDialog;
+import com.example.pikachu.controllers.GraphicView;
+import com.example.pikachu.framentdialogs.ExitFragmentDialog;
+import com.example.pikachu.framentdialogs.LoseFragmentDialog;
+import com.example.pikachu.framentdialogs.PauseFragmentDialog;
 import com.example.pikachu.R;
 
 import java.util.concurrent.TimeUnit;
 
-import static com.example.pikachu.Controller.GraphicView.LevelGame;
-import static com.example.pikachu.Controller.GraphicView.TongDiem;
-import static com.example.pikachu.Controller.GraphicView.countHelp;
-import static com.example.pikachu.Controller.GraphicView.nhacKhiLose;
+import static com.example.pikachu.controllers.GraphicView.LevelGame;
+import static com.example.pikachu.controllers.GraphicView.TongDiem;
+import static com.example.pikachu.controllers.GraphicView.countHelp;
+import static com.example.pikachu.controllers.GraphicView.nhacKhiLose;
 
 public class MainActivity extends AppCompatActivity {
 

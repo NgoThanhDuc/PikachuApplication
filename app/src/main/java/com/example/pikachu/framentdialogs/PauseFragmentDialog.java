@@ -1,4 +1,4 @@
-package com.example.pikachu.FramentDialog;
+package com.example.pikachu.framentdialogs;
 
 import android.app.Dialog;
 import android.media.MediaPlayer;
@@ -16,10 +16,10 @@ import androidx.fragment.app.DialogFragment;
 
 import com.example.pikachu.R;
 
-import static com.example.pikachu.Activity.MainActivity.graphicView;
-import static com.example.pikachu.Activity.MainActivity.musicPlay;
-import static com.example.pikachu.Activity.MainActivity.musicCountdownTime;
-import static com.example.pikachu.Activity.MainActivity.pauseFlag;
+import static com.example.pikachu.activities.MainActivity.graphicView;
+import static com.example.pikachu.activities.MainActivity.musicPlay;
+import static com.example.pikachu.activities.MainActivity.musicCountdownTime;
+import static com.example.pikachu.activities.MainActivity.pauseFlag;
 
 public class PauseFragmentDialog extends DialogFragment {
 

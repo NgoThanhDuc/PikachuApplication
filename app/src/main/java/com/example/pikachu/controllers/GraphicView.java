@@ -1,4 +1,4 @@
-package com.example.pikachu.Controller;
+package com.example.pikachu.controllers;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -21,21 +21,21 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.pikachu.Activity.OptionActivity;
+import com.example.pikachu.activities.OptionActivity;
 import com.example.pikachu.R;
-import com.example.pikachu.model.PointLine;
+import com.example.pikachu.models.PointLine;
 
 import java.util.ArrayList;
 import java.util.Random;
 
-import static com.example.pikachu.Activity.MainActivity.backgroundGame;
-import static com.example.pikachu.Activity.MainActivity.musicPlay;
-import static com.example.pikachu.Activity.MainActivity.musicCountdownTime;
-import static com.example.pikachu.Activity.MainActivity.pauseFlag;
-import static com.example.pikachu.Activity.MainActivity.progressBarStatus;
-import static com.example.pikachu.Activity.MainActivity.tv_help;
-import static com.example.pikachu.Activity.MainActivity.tv_level;
-import static com.example.pikachu.Activity.MainActivity.tv_marks;
+import static com.example.pikachu.activities.MainActivity.backgroundGame;
+import static com.example.pikachu.activities.MainActivity.musicPlay;
+import static com.example.pikachu.activities.MainActivity.musicCountdownTime;
+import static com.example.pikachu.activities.MainActivity.pauseFlag;
+import static com.example.pikachu.activities.MainActivity.progressBarStatus;
+import static com.example.pikachu.activities.MainActivity.tv_help;
+import static com.example.pikachu.activities.MainActivity.tv_level;
+import static com.example.pikachu.activities.MainActivity.tv_marks;
 
 public class GraphicView extends View {
 

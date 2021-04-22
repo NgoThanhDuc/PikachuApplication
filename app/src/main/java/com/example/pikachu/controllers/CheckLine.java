@@ -1,10 +1,10 @@
-package com.example.pikachu.Controller;
+package com.example.pikachu.controllers;
 
 import android.graphics.Point;
 
-import com.example.pikachu.model.PointLine;
+import com.example.pikachu.models.PointLine;
 
-import static com.example.pikachu.Controller.GraphicView.CardMatrix;
+import static com.example.pikachu.controllers.GraphicView.CardMatrix;
 
 public class CheckLine {
 
